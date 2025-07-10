@@ -52,8 +52,42 @@
         border: none;
         margin-top: 25px;
 }
+/* Mian */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
 
-
-
+/* Action */
+.action{
+    display: flex;
+    justify-content: space-between;
+    margin: 90px 0;
+}
+.action-text{
+    max-width: 430px;
+    margin-top: 80px;
+}
+.action-text h2{
+    font-size: 35px;
+}
+.action-text p{
+    font-size: 22px;
+    color: #4f4f52;
+    margin-top: -15px;
+}
+.action-text button{
+        font-size: 16px;
+        color: aliceblue;
+        background-color: #4E47FF;
+        font-weight: bold;
+        padding: 15px 30px;
+        border-radius: 10px;
+        border: none;
+}
+.action-image img{
+    width: 100%;
+    border-radius: 30px;
+}
 
 
