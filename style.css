@@ -33,6 +33,13 @@
     padding: 15px 30px;
     border-radius: 10px;
     border: none;
+
+    transition: transform 1s ease;
+}
+.header-nav button:hover{
+    transform: scale(1.1);
+    color: #111111;
+    background-color: #f3c11b;
 }
 .header-text{
     margin: 0 auto;
@@ -53,8 +60,16 @@
         border-radius: 10px;
         border: none;
         margin-top: 25px;
+
+        transition: transform 1s ease;
 }
-/* Mian */
+.header-text button:hover{
+    transform: scale(1.1);
+    color: #111111;
+    background-color: #f3c11b;
+}
+
+/* Main */
 main{
     max-width: 1140px;
     margin: 0 auto;
@@ -86,6 +101,13 @@ main{
         padding: 15px 30px;
         border-radius: 10px;
         border: none;
+
+        transition: transform 1s ease;
+}
+.action-text button:hover{
+    transform: scale(1.1);
+    color: #111111;
+    background-color: #f3c11b;
 }
 .action-image img{
     width: 100%;
@@ -203,6 +225,13 @@ main{
     padding: 15px 30px;
     border-radius: 10px;
     border: none;
+
+    transition: transform 1s ease;
+}
+.ready-focus-btn button:hover{
+    transform: scale(1.1);
+    color: #111111;
+    background-color: #f3c11b;
 }
 .ready-focus img{
     border-radius: 50px;
@@ -261,6 +290,13 @@ textarea {
     padding: 15px 30px;
     border-radius: 10px;
     border: none;
+
+    transition: transform 1s ease;
+}
+.get-btn:hover{
+    transform: scale(1.1);
+    color: #111111;
+    background-color: #f3c11b;
 }
 
 /* Footer */
