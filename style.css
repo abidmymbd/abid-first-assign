@@ -2,7 +2,9 @@
     margin-top: 0;
     padding: 0;
 }
-
+.bg-color{
+    background-color: rgba(188, 203, 236, 0.3);
+}
 /* Header & Nav */
 .header{
     background-image: url(./images/Hero-bg.png);
@@ -122,6 +124,59 @@ main{
     font-size: 17px;
 }
 
+/* Review Section */
+.review{
+    text-align: center;
+    padding: 100px 0;
+}
+.review-title h2{
+    font-size: 60px;
+}
+.review-box{
+    display: flex;
+    justify-content: space-between;
+}
+.review-box-1{
+    padding: 20px 20px;
+    text-align: left;
+    background-color: rgb(246, 250, 253);
+    width: 28%;
+    border-radius: 10px;
+    border: 1px solid #dadae2;
+}
+.star-icon{
+    margin: 25px 0;
+}
+.box-title h3{
+    font-size: 25px;
+    font-weight: bold;
+}
+.box-title p{
+    font-size: 16px;
+    color: #4f4f52;
+    margin-top: -15px;
+    margin-bottom: 35px;
+}
+.people-box{
+    display: flex;
+    gap: 15px;
+}
+.people-box-img img{
+    border-radius: 50%;
+}
+.people-box-title h6{
+    font-size: 14px;
+    color: #626264;
+    padding-top: 5px;
+    margin-bottom: 5px;
+}
+.people-box-title p{
+    font-size: 17px;
+    color: #727275;
+}
+
+
+
 /* Get in Touch */
 
 .get-in-touch{
@@ -140,10 +195,7 @@ main{
 }
 .contact-input{
     flex: 1;
-    max-width: 400px;
     background-color: transparent;
-    width: 100%;
-    max-width: 500px;
 }
 .form-group{
     margin-bottom: 20px;
@@ -158,7 +210,7 @@ label{
 
 input, textarea{
     width: 100%;
-    padding: 13px 16px;
+    padding: 13px 0;
     border-radius: 8px;
     border: 1px solid #afafaf;
     font-size: 16px;
@@ -170,7 +222,7 @@ textarea {
 }
 
 .get-btn{
-    width: 107%;
+    width: 100%;
     font-size: 16px;
     color: aliceblue;
     background-color: #4E47FF;
