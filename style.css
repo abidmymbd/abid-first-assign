@@ -142,6 +142,8 @@ main{
     flex: 1;
     max-width: 400px;
     background-color: transparent;
+    width: 100%;
+    max-width: 500px;
 }
 .form-group{
     margin-bottom: 20px;
@@ -177,9 +179,33 @@ textarea {
     border-radius: 10px;
     border: none;
 }
-.contact-input{
-        width: 100%;
-        max-width: 500px;
+
+/* Footer */
+footer{
+    text-align: center;
+    padding: 50px 40px;
+    margin-bottom: 60px;
+}
+.footer-logo h2{
+    font-size: 105px;
+    font-weight: bold;
+    color: #4E47FF;
+    margin-bottom: -1px;
+}
+.footer-logo p{
+    color: #4f4f52;
+    font-size: 22px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.footer-Nav ul li{
+    display: inline-block;
+    margin: 0 25px;
+}
+.footer-Nav ul li a{
+    font-size: 22px;
+    color: #4f4f52;
+    text-decoration: none;
 }
 
-/*  */
+/* Done */
